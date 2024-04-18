@@ -1,5 +1,5 @@
 name: video_thumbnail_example
-description: Demonstrates how to use the video_thumbnail plugin.
+description: Demonstrates how to use the video_thumb_getter plugin.
 version: 0.0.1
 publish_to: 'none'
 

@@ -25,10 +25,10 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: video_thumbnail
+    implements: video_thumb_getter
     platforms:
       android:
-        package: xyz.justsoft.video_thumbnail
+        package: xyz.justsoft.video_thumb_getter
         pluginClass: VideoThumbnailPlugin
       ios:
         pluginClass: VideoThumbnailPlugin

@@ -7,7 +7,7 @@ import 'video_thumbnail_platform.dart';
 class MethodChannelVideoThumbnail extends VideoThumbnailPlatform {
   /// The method channel used to interact with the native platform.
   static const methodChannel =
-      MethodChannel('plugins.justsoft.xyz/video_thumbnail');
+      MethodChannel('plugins.justsoft.xyz/video_thumb_getter');
 
   @override
   Future<XFile> thumbnailFile({

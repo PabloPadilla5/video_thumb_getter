@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:video_thumb_getter/src/image_format.dart';
-import 'package:video_thumb_getter/video_thumbnail.dart';
+import 'package:video_thumb_getter/video_thumb_getter.dart';
 
 void main() {
-  const channel = MethodChannel('video_thumbnail');
+  const channel = MethodChannel('video_thumb_getter');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, (MethodCall methodCall) async {

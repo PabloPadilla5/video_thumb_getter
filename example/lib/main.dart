@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:video_thumb_getter/index.dart';
-import 'package:video_thumb_getter/video_thumbnail.dart';
+import 'package:video_thumb_getter/video_thumb_getter.dart';
 
 void main() => runApp(const MyApp());
 
